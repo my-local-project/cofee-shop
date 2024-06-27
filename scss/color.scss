@@ -9,6 +9,8 @@ body{
 	margin: 0;
 	font-family: "Fira Sans", sans-serif;
 	transition-duration: 500ms;
+	position: relative;
+	
 }
 img{
 	max-width: 100%;
@@ -27,6 +29,9 @@ a{
 	text-decoration: none;
 	display: inline-block;
 }
+
+
+
 .table{
 	display: table;
 	table-layout: fixed;
@@ -681,6 +686,7 @@ position: relative;
 .offer-section{
 	border-bottom: 95px solid $primarydark;
 	position: relative;
+
 	&:after{
 		background: $primarycolor;
 		position: absolute;
@@ -743,6 +749,7 @@ position: relative;
 }
 /*footer style start*/
 .footer-section{
+		padding-bottom: 50px;
 	.footer-logo{
 		padding: 80px 10px 10px;
 		background: #2c3831;
@@ -1714,6 +1721,7 @@ position: relative;
 					h2{
 						font-size: 20px;
 						line-height: 22px;
+						text-align: center;
 					}
 				
 				.btn{
@@ -1735,6 +1743,8 @@ position: relative;
 
 	}
 	.footer-section{
+		padding-bottom: 30px;
+
 		.table{
 			.table-cell{
 				h2{
